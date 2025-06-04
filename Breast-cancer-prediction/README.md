@@ -31,7 +31,7 @@ breast-cancer-prediction/
 │
 ├── data/
 │   ├── raw/                     # Original dataset (CSV)
-│   └── processed/               # Scaled/cleaned data (optional)
+│   └── reports/               # HTML file
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb             # Exploratory Data Analysis
@@ -61,6 +61,20 @@ breast-cancer-prediction/
 ├── requirements.txt             # Python dependencies
 └── run.py                       # Main runner (train + evaluate)
 
+
+#libraries (you can see in requirement.txt)
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+shap
+matplotlib
+seaborn
+pyyaml
+
+
+
 #Important Notes
 
 run.py - **it runs evalute_model.py , explain_model.py , train_model.py**
@@ -68,16 +82,14 @@ app - **it consists of two apps which are based on Logistic regression and Rando
 notebooks - **this notebook consist of eda.ipynb and model.ipynb**
 data - **csv file for training model**
 
+
+
 #How to run 
+       - You need to install necessary  libraries which i have written in requirement.txt to run the project or you can create a enviroment 
+       - To see result in a form of browser you need to go in data/reports/breast_cancer_profiling_report.html and from there you need to run live server 
+       
 
+    
 
-
-
-
-
-
-
-
-
-#git command to fetch the project 
-
+#github project link
+https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main # you can fetch project from here 

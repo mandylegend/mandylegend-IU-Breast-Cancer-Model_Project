@@ -4,6 +4,11 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+from src.logger import logging
+
+logging.info("evaluate has started")
+
+
 # Function to evaluate the model using a dataset and a saved model
 def evaluate_model(data_path, model_path):
     df = pd.read_csv(data_path)

@@ -1,4 +1,4 @@
-**do not run template.py because it will create new files again and all code will be lost use template.py if you want to create files in another project**
+**do not run template.py because it will create new files and folder again and all code will be lost use template.py if you want to create files in another project**
 
 
 🙏 Acknowledgments
@@ -38,7 +38,7 @@ pyyaml
 
 # Important Notes
 
-run.py - **it runs evalute_model.py , explain_model.py , train_model.py**
+run.py - **it runs evaluate_model.py , explain_model.py , train_model.py**
 app - **it consists of two apps which are based on Logistic regression and RandomForestClassifier**
 notebooks - **this notebook consist of eda.ipynb and model.ipynb**
 data - **csv file for training model**
@@ -46,8 +46,8 @@ data - **csv file for training model**
 
 
 # How to run 
-       - **You need to install necessary  libraries which i have written in requirement.txt to run the project or you can create a enviroment**
-       - **To see result in a form of browser you need to go in data/reports/breast_cancer_profiling_report.html and from there you need to run live server**
+You need to install necessary  **libraries** which i have written in requirement.txt to run the project or you can create a new **enviroment**
+To see result in a form of browser you need to go in **data/reports/breast_cancer_profiling_report.html** and from there you need to run live server
        
 
     

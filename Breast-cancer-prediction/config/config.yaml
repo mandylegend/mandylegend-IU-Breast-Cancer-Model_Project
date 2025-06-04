@@ -1,0 +1,12 @@
+# config/config.yaml placeholder
+model:
+  type: logistic_regression
+  max_iter: 1000
+  random_state: 42
+
+data:
+  raw: data/raw/Cancer_data.csv
+  processed: data/processed/processed_data.csv
+
+paths:
+  model: src/models/logistic_model.pkl

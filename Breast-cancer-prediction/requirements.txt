@@ -1,0 +1,10 @@
+# requirements.txt placeholder
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+shap
+matplotlib
+seaborn
+pyyaml

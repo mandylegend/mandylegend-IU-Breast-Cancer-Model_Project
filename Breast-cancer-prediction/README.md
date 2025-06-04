@@ -5,7 +5,7 @@ IU Internationale Hochschule – DLBDSME01 Model Engineering Module
 
 # 🧠 Breast Cancer Prediction – Interpretable Machine Learning
 
-This project builds an **interpretable machine learning model** to predict whether a breast tumor is **benign or malignant**, using the [Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)).
+This project builds an **interpretable machine learning model** to predict whether a breast tumor is **benign or malignant**, using the [Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) and IU csv file.
 
 It follows the **CRISP-DM methodology** and includes a **Streamlit web app** for medical professionals to interact with the model and understand its predictions.
 
@@ -61,11 +61,23 @@ breast-cancer-prediction/
 ├── requirements.txt             # Python dependencies
 └── run.py                       # Main runner (train + evaluate)
 
-Important Notes
+#Important Notes
 
-run.py - "it runs evalute_model.py , explain_model.py , train_model.py"
-app - "it consists of two apps which are based on Logistic regression and RandomForestClassifier
+run.py - **it runs evalute_model.py , explain_model.py , train_model.py**
+app - **it consists of two apps which are based on Logistic regression and RandomForestClassifier**
+notebooks - **this notebook consist of eda.ipynb and model.ipynb**
+data - **csv file for training model**
+
+#How to run 
 
 
 
+
+
+
+
+
+
+
+#git command to fetch the project 
 

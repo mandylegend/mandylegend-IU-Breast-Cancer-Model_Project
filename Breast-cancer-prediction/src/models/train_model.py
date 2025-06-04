@@ -38,10 +38,6 @@ def train_and_save_model(data_path, model_path):
     print(f"Model number of iterations: {model.n_iter_}")
    
 
-    
-
-
-
  
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
     joblib.dump((model, scaler), model_path)

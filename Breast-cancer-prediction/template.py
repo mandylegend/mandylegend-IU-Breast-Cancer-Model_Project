@@ -1,3 +1,6 @@
+# do not run template.py because it will create new files again and all code will be lost 
+# use template.py if you want to create files in new project
+
 # files
 import os
 

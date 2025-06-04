@@ -1,3 +1,6 @@
+**do not run template.py because it will create new files again and all code will be lost use template.py if you want to create files in another project**
+
+
 🙏 Acknowledgments
 UCI ML Repository - Breast Cancer Wisconsin Dataset
 
@@ -18,7 +21,39 @@ It follows the **CRISP-DM methodology** and includes a **Streamlit web app** for
 - Allow **non-technical stakeholders** (e.g., oncologists) to understand model decisions
 - Provide a prototype **GUI** for prediction and explanation
 
----
+
+
+# libraries (you can see in requirement.txt)
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+shap
+matplotlib
+seaborn
+pyyaml
+
+
+
+# Important Notes
+
+run.py - **it runs evalute_model.py , explain_model.py , train_model.py**
+app - **it consists of two apps which are based on Logistic regression and RandomForestClassifier**
+notebooks - **this notebook consist of eda.ipynb and model.ipynb**
+data - **csv file for training model**
+
+
+
+# How to run 
+       - **You need to install necessary  libraries which i have written in requirement.txt to run the project or you can create a enviroment**
+       - **To see result in a form of browser you need to go in data/reports/breast_cancer_profiling_report.html and from there you need to run live server**
+       
+
+    
+
+**github project link**
+https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main - you can fetch project from here 
 
 ## 🧱 Project Structure
 
@@ -62,34 +97,3 @@ breast-cancer-prediction/
 └── run.py                       # Main runner (train + evaluate)
 
 
-#libraries (you can see in requirement.txt)
-pandas
-numpy
-scikit-learn
-joblib
-streamlit
-shap
-matplotlib
-seaborn
-pyyaml
-
-
-
-#Important Notes
-
-run.py - **it runs evalute_model.py , explain_model.py , train_model.py**
-app - **it consists of two apps which are based on Logistic regression and RandomForestClassifier**
-notebooks - **this notebook consist of eda.ipynb and model.ipynb**
-data - **csv file for training model**
-
-
-
-#How to run 
-       - You need to install necessary  libraries which i have written in requirement.txt to run the project or you can create a enviroment 
-       - To see result in a form of browser you need to go in data/reports/breast_cancer_profiling_report.html and from there you need to run live server 
-       
-
-    
-
-#github project link
-https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main # you can fetch project from here 

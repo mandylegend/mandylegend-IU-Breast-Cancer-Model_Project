@@ -45,9 +45,9 @@ def evaluate_model(data_path, model_path):
     plt.xlabel("Predicted label")
     plt.ylabel("True label")
     plt.tight_layout()
-    plt.savefig("confusion_matrix.png")
+    # plt.savefig("confusion_matrix.png")
     plt.show()
-    print("Confusion matrix saved as 'confusion_matrix.png'.")
+    # print("Confusion matrix saved as 'confusion_matrix.png'.")
 
     
 

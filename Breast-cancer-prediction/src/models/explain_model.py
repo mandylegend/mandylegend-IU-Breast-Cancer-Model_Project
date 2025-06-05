@@ -18,6 +18,8 @@ def explain_model(data_path, model_path):
 
     model, scaler = joblib.load(model_path)
     X_scaled = scaler.transform(X)
+    
+    logging.info("Calculating SHAP values...")
 
     explainer = shap.Explainer(model, X_scaled)
     shap_values = explainer(X_scaled)

@@ -1,5 +1,5 @@
 # Breast Cancer Prediction App - Streamlit
-# Created by: [Mandar More]
+# Created by: Mandar More
 # University Project: Predicting Breast Cancer using ML and Streamlit
 
 import streamlit as st

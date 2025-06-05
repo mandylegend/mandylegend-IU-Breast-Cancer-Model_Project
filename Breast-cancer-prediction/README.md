@@ -42,6 +42,7 @@ run.py - **it runs evaluate_model.py , explain_model.py , train_model.py**
 app - **it consists of two apps which are based on Logistic regression and RandomForestClassifier**
 notebooks - **this notebook consist of eda.ipynb and model.ipynb**
 data - **csv file for training model**
+Logger - **I have created logger file to keep track of code which is logs folder**
 
 
 

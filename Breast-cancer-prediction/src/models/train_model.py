@@ -30,6 +30,7 @@ def train_and_save_model(data_path, model_path):
     predict = model.predict(X_test)  # To ensure the model is trained and can predict
     print([predict])  # To ensure the model has classes set
     accracy = model.score(X_test, y_test)
+    logging.info(f"Model accuracy: {accracy:.4f}")
     print(f"Model accuracy: {accracy:.4f}")
     print("Model training completed successfully.")
     print(f"Model classes: {model.classes_}")

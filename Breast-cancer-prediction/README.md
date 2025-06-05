@@ -108,10 +108,14 @@ You need to install necessary  **libraries** which i have written in requirement
 To see result in a form of browser you need to go in **data/reports/breast_cancer_profiling_report.html** and from there you need to run live server
        
 
-    
+ 
+---   
 
 **github project link** :-
-https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main - you can fetch project from here and updated files
+---
+https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main 
+
+ you can fetch project from here and updated files
 
 ---
 ## 🧱 Project Structure

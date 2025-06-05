@@ -18,7 +18,6 @@ It follows the **CRISP-DM methodology** and includes a **Streamlit web app** for
 
 - Develop a classification model with **F1 score > 0.95**
 - Focus on **interpretability** using SHAP
-- Allow **non-technical stakeholders** (e.g., oncologists) to understand model decisions
 - Provide a prototype **GUI** for prediction and explanation
 
 
@@ -81,16 +80,14 @@ breast-cancer-prediction/
 │   │   ├── evaluate_model.py    # Evaluate metrics and F1
 │   │   └── explain_model.py     # SHAP-based explanations
 │   └── utils/
-│       └── helpers.py           # Utility functions
+│       └── helpers.py    
+│   └── Logger                   
+│
 │
 ├── app/
 │   └── Logistic_app.py         # GUI for predictions
     └── Ran_for_clf_app.py      # GUI for predictions
-    
-│
-├── tests/
-│   └── test_model.py            # Unit tests
-│
+
 ├── config/
 │   └── config.yaml              # Model parameters and paths
 │

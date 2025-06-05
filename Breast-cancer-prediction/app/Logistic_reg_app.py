@@ -11,6 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
+
 # Load breast cancer dataset
 data = load_breast_cancer()
 X = pd.DataFrame(data.data, columns=data.feature_names)
@@ -28,12 +29,13 @@ model.fit(X_train, y_train)
 # Evaluate model
 accuracy = accuracy_score(y_test, model.predict(X_test))
 
+
 # Streamlit 
 
 st.title("🩺 Breast Cancer Prediction App")
 
 st.write("This app predicts whether a tumor is **Benign** or **Malignant** based on cell features.")
-st.sidebar.header("🔍 Input Tumor Features")
+st.sidebar.header("🔎 Input Tumor Features")
 
 
 # Let user input values for first 10 features
@@ -85,6 +87,7 @@ if st.button("🔮 Predict"):
 # Show model accuracy
 st.sidebar.subheader("📊 Model Info")
 st.sidebar.write(f"Model Accuracy: **{round(accuracy * 100, 2)}%** on test data")
+
 
 # Feature importance plot
 st.subheader("📈 Feature Importance (Top 10)")

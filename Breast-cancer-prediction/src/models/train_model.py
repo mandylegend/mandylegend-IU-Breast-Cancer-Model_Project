@@ -4,6 +4,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 import joblib
 import os
+import pickle
 from src.logger import logging
 
 # Function to train a logistic regression model and save it along with the scaler
@@ -30,7 +31,9 @@ def train_and_save_model(data_path, model_path):
     predict = model.predict(X_test)  # To ensure the model is trained and can predict
     print([predict])  # To ensure the model has classes set
     accracy = model.score(X_test, y_test)
-    logging.info(f"Model accuracy: {accracy:.4f}")
+
+    logging.info("Model training completed successfully")
+    
     print(f"Model accuracy: {accracy:.4f}")
     print("Model training completed successfully.")
     print(f"Model classes: {model.classes_}")
@@ -42,8 +45,11 @@ def train_and_save_model(data_path, model_path):
    
 
  
-    os.makedirs(os.path.dirname(model_path), exist_ok=True)
-    joblib.dump((model, scaler), model_path)
-    print(f"Model saved to {model_path}")
+  
+
+model_path = os.path.join(os.path.dirname(__file__), "logistic_model.pkl")
+with open(model_path, "wb") as f:
+    pickle.dump(model_path, f)
+
 
 

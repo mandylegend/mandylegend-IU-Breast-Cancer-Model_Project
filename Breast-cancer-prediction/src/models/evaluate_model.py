@@ -39,6 +39,7 @@ def evaluate_model(data_path, model_path):
     plt.title("Confusion Matrix")
     plt.colorbar()
     
+    
     tick_marks = range(len(model.classes_))
     plt.xticks(tick_marks, model.classes_, rotation=45)
     plt.yticks(tick_marks, model.classes_)

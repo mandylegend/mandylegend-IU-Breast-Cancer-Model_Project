@@ -54,7 +54,7 @@ To see result in a form of browser you need to go in **data/reports/breast_cance
     
 
 **github project link**
-https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main - you can fetch project from here 
+https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main - you can fetch project from here and updated files
 
 ## 🧱 Project Structure
 

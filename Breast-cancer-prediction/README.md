@@ -2,7 +2,11 @@ Name :- Mandar Kishor More
 
 Course :-  DLBDSME01 Model Engineering Module
 
+**github project link** :-
 ---
+https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main 
+
+ you can fetch project from here and updated files 
 🙏 Acknowledgments
 
 ---
@@ -111,11 +115,7 @@ To see result in a form of browser you need to go in **data/reports/breast_cance
  
 ---   
 
-**github project link** :-
----
-https://github.com/mandylegend/mandylegend-IU-Breast-Cancer-Model_Project/tree/main 
 
- you can fetch project from here and updated files
 
 ---
 ## 🧱 Project Structure

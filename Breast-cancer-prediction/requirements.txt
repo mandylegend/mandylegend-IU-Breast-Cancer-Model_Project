@@ -8,4 +8,3 @@ shap
 matplotlib
 seaborn
 pyyaml
-matplotlib.pyplot
